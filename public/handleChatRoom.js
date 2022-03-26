@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3000")
+const socket = io("https://learnsocket.herokuapp.com")
 
 socket.on("server-send-rooms", function (data) {
     $("#dsRoom").html("");
