@@ -1,0 +1,6 @@
+#wrapper {width: 520px;margin: auto;}
+#infomation{ border: solid 1px gray; margin: 10px;padding: 10px; text-align: center;}
+#txtHoTen, #txtEmail, #txtSoDT{width: 100px;float: left;}
+#listUsers{text-align: center;}
+.hocvien{border-bottom: 1px solid black;padding: 10px; text-align: center;}
+.hang1 span{color:blue; font-weight:bold;}

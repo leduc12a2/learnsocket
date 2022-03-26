@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+        </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="handleChat.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="loginForm">
+            <h3>WHAT'S YOUR NAME</h3>
+            <input type="text" id="txtUsername" placeholder="User Name" />
+            <input type="button" id="btnRegister" value="Register" placeholder="Button" />
+        </div>
+        <div id="chatForm">
+            <div id="left">
+                <div id="boxTitle">User Online</div>
+                <div id="boxContent">
+
+                </div>
+            </div>
+            <div id="right">
+                <div id="sayHi">
+                    Hello <span id="currentUser">Teo</span>
+                    <input type="button" value="Logout" id="btnLogout" />
+                </div>
+                <div id="listMessage">
+
+                </div>
+                <div id="thongbao"></div>
+                <input type="text" id="txtMessage" placeholder="Message" />
+                <input type="button" id="btnSendMessage" value="Send Message" />
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
